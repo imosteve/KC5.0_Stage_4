@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Imo Stephen",
+        "subjects": {
+            "Electric Machines": {
+                "score": 89.0,
+                "grade": "A"
+            },
+            "English": {
+                "score": 84.0,
+                "grade": "A"
+            },
+            "Agriculture": {
+                "score": 77.0,
+                "grade": "A"
+            },
+            "History": {
+                "score": 47.0,
+                "grade": "D"
+            }
+        },
+        "average": 74.25
+    }
+]
