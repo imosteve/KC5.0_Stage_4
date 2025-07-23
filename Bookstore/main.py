@@ -20,7 +20,7 @@ def get_input(prompt):
         return None
 
 def main():
-    print(f"\n{'Bookstory Inventory System':^30}")
+    print(f"\n{'Bookstore Inventory System':^30}")
 
     inventory = Inventory()
 
@@ -29,12 +29,13 @@ def main():
         print("1. Add stock to Inventory")
         print("2. Sell book")
         print("3. View Inventory")
-        print("4. Save and Exit")
+        print("4. Search Book by Title")
+        print("5. Exit")
 
         try:  
             choice = input("\nEnter your Choice: ")
         except:
-            print("Invalid option: Choose from 1-4")
+            print("Invalid option: Choose from 1-5")
             continue
         
         match choice:
@@ -53,7 +54,7 @@ def main():
                     continue
                 book = Book(title, author, price, stock)
                 inventory.add_to_inventory(book)
-                print("Stock added to inventory")
+                print("Book added to inventory")
             case '2':
                 title = get_input('title')
                 if not title:
@@ -65,11 +66,20 @@ def main():
             case '3':
                 inventory.view_inventory()
             case '4':
-                inventory.save_to_file()
-                print('Saved...\nExiting... \nGoodbye!...')
+                query = input("Enter title to search: ")
+                query = " ".join(query.split())
+                results = inventory.search_by_title(query)
+                if results:
+                    for book in results:
+                        print(f"{book['title']} by {book['author']} - ${book['price']}")
+                else:
+                    print("No matching books found.")
+            case '5':
+                inventory.save_books()
+                print('Goodbye!...\n')
                 break
             case _:
-                print("Invalid option: Choose from 1-4")
+                print("Invalid option: Choose from 1-5")
                 continue
 
 if __name__ == '__main__':

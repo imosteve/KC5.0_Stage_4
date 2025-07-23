@@ -16,5 +16,11 @@
     "author": "Imo Steve",
     "price": 676.78,
     "stock": 26
+  },
+  {
+    "title": "The Kingdom Of God",
+    "author": "Godfrey",
+    "price": 550.0,
+    "stock": 15
   }
 ]

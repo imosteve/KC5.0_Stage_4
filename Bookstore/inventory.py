@@ -2,7 +2,7 @@
 import os
 import json
 
-FILE_PATH = 'Bookstore/inventory.json'
+FILE_PATH = 'Bookstore/books.json'
 
 class Book:
     def __init__(self, title, author, price, stock):
@@ -55,15 +55,17 @@ class Inventory:
                 self.books[idx] = book
                 return
         if not found:
-            print(f"Book not found")
+            print(f"No matching book found")
             return
     
     def view_inventory(self):
         if not self.books:
             print("--- No Inventory Record ----")
             return
-        print('-'*60)
-        print(f"{f"s/n":^3}   {"Title":^20} {"Author":<15} {"Unit Price":^10}   {"Stock":^6}")
+        print(f"{f"s/n":^3} {"Title":^20} {"Author":<15} {"Unit Price":^10}   {"Stock":^6}")
         print('-'*60)
         for idx, book in enumerate(self.books, 1):
-            print(f"{f"{idx}.":<3}   {book['title']:<20} {book['author']:<15} {book['price']:>8.2f}   {book['stock']:>5}")
+            print(f"{f"{idx}.":<3} {book['title']:<20} {book['author']:<15} #{book['price']:>9.2f}   {book['stock']:>5}")
+
+    def search_by_title(self, query):
+        return [book for book in self.books if query.lower() in book["title"].lower()]
