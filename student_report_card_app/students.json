@@ -20,5 +20,27 @@
             }
         },
         "average": 74.25
+    },
+    {
+        "name": "Abasiama Akang",
+        "subjects": {
+            "Mathematics": {
+                "score": 89.0,
+                "grade": "A"
+            },
+            "English": {
+                "score": 56.0,
+                "grade": "C"
+            },
+            "Geography": {
+                "score": 80.0,
+                "grade": "A"
+            },
+            "History": {
+                "score": 34.0,
+                "grade": "F"
+            }
+        },
+        "average": 64.75
     }
 ]
