@@ -1,0 +1,20 @@
+[
+  {
+    "title": "God Is Good",
+    "author": "Imo Akang",
+    "price": 893.23,
+    "stock": 45
+  },
+  {
+    "title": "Things Fall Apart",
+    "author": "Chinua Achebe",
+    "price": 9999.0,
+    "stock": 5
+  },
+  {
+    "title": "How To Make Money",
+    "author": "Imo Steve",
+    "price": 676.78,
+    "stock": 26
+  }
+]
