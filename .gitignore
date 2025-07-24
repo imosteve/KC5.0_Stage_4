@@ -1,0 +1,6 @@
+# gitignore files
+
+__pycache__
+*.pyc
+Assignment.txt
+
