@@ -1,0 +1,42 @@
+[
+    {
+        "date": "24/07/2025, 12:23:00",
+        "category": "clothing",
+        "amount": 20000.0
+    },
+    {
+        "date": "24/07/2025, 12:23:06",
+        "category": "food",
+        "amount": 4000.0
+    },
+    {
+        "date": "24/07/2025, 12:23:16",
+        "category": "toiletries",
+        "amount": 5500.0
+    },
+    {
+        "date": "24/07/2025, 12:23:24",
+        "category": "food",
+        "amount": 35000.0
+    },
+    {
+        "date": "24/07/2025, 12:23:38",
+        "category": "transport",
+        "amount": 14000.0
+    },
+    {
+        "date": "24/07/2025, 12:23:52",
+        "category": "transport",
+        "amount": 5000.0
+    },
+    {
+        "date": "24/07/2025, 12:25:10",
+        "category": "k",
+        "amount": 34.0
+    },
+    {
+        "date": "24/07/2025, 12:25:17",
+        "category": "dfk",
+        "amount": 480.4
+    }
+]

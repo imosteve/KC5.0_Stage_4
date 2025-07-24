@@ -26,7 +26,7 @@ def main():
 
     while True:
         print("\n--- Bookstore Menu ---")
-        print("1. Add stock to Inventory")
+        print("1. Add Book to Inventory")
         print("2. Sell book")
         print("3. View Inventory")
         print("4. Search Book by Title")

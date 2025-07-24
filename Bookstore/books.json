@@ -22,5 +22,11 @@
     "author": "Godfrey",
     "price": 550.0,
     "stock": 15
+  },
+  {
+    "title": "The Walking Dead",
+    "author": "Darren Sam",
+    "price": 4500.0,
+    "stock": 18
   }
 ]
