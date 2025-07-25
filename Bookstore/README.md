@@ -1,4 +1,4 @@
-# 📝 Student Report Card App
+# Student Report Card App
 
 A terminal-based Python application to manage student scores and grades, with version control using Git.
 
