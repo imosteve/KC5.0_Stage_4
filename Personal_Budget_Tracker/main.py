@@ -38,9 +38,7 @@ def main():
         save_transaction(transaction_to_dict)
 
     grouped = group_by_category()
-    print(grouped)
     totals = calculate_totals(grouped)
-    print(totals)
 
     if not totals:
         print("--- No Budget Record ---")
