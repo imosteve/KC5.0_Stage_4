@@ -1,8 +1,10 @@
-This program simulate a student report card app to manage student scores and grades.
+# Student Report Card App
 
-# Features:
-- Student class: name, subjects, scores, average, grade
-- app can add, view, update student report card
-- Uses Git to track versions with commit messages like:
- * Add Student class and JSON save feature
- * Fix average score calculation
+A terminal-based Python application to manage student scores and grades, with version control using Git.
+
+## Features
+- Add student records
+- View student scores and grades
+- Update student data
+- Save data using JSON
+

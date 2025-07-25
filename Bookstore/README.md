@@ -1,10 +1,13 @@
-# Student Report Card App
+# Bookstore Inventory System
 
-A terminal-based Python application to manage student scores and grades, with version control using Git.
+Build a Python app to manage books in a store using version control practices with Git.
 
 ## Features
-- Add student records
-- View student scores and grades
-- Update student data
-- Save data using JSON
-
+- `Book` class with the following attributes:
+  - `title`
+  - `author`
+  - `price`
+  - `stock`
+- Inventory logic implemented in `inventory.py`
+- Inventory data stored in `books.json`
+- Uses the built-in `math` module for rounding prices
